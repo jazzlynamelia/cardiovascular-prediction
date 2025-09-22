@@ -19,12 +19,12 @@ Three models were implemented:
 
 ## Workflow
 <p align="center">
-  <img src="assets/workflow.png" alt="Workflow Diagram" width="600"/>
+  <img src="assets/workflow.png" alt="Workflow Diagram" width="900"/>
 </p>
 
 ---
 
-## 📂 Methodology
+## Methodology
 1. **Data Collection**  
    - Dataset: [Cardiovascular Disease Dataset (Kaggle)](https://www.kaggle.com/sulianova/cardiovascular-disease-dataset)  
    - 70,000 patient records (demographics, lifestyle, medical features).
@@ -83,16 +83,16 @@ Three models were implemented:
 
 ---
 
-## 📈 Results
+## Results
 - **Gradient-Boosted Tree** → Accuracy **89.73%**, Precision **90.31%**.  
 - **Random Forest** → Accuracy **89.52%**, Precision **90.30%**.  
 - **Logistic Regression** → Accuracy **89.68%**, Precision **80.46%**.  
 
-📌 All models performed competitively, but GBT showed the most stable and consistent results.
+All models performed competitively, but GBT showed the most stable and consistent results.
 
 ---
 
-## 🛠️ Tools & Libraries
+## Tools & Libraries
 - **Apache Spark MLlib**
 - **Python (Google Colab)**
 - **Pandas, NumPy, Matplotlib, Seaborn**
