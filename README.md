@@ -32,12 +32,14 @@ Three models were implemented:
 2. **Data Cleaning**  
    - Removed irrelevant columns (`id`), handled missing values, duplicates, outliers (IQR).  
    - Validated categorical values, standardized formats.  
+
    <p align="center">
-     <img src="assets/histograms.png" alt="Histograms of Features" width="600"/>
+     <img src="assets/histograms.png" alt="Histograms of Features" width="900"/>
    </p>
+
    <p align="center">
-     <img src="assets/boxplots_before.png" alt="Boxplots Before Cleaning" width="600"/>
-     <img src="assets/boxplots_after.png" alt="Boxplots After Cleaning" width="600"/>
+     <img src="assets/boxplots_before.png" alt="Boxplots Before Cleaning" width="480"/>
+     <img src="assets/boxplots_after.png" alt="Boxplots After Cleaning" width="480"/>
    </p>
 
 3. **Feature Engineering & Selection**  
@@ -45,20 +47,16 @@ Three models were implemented:
    - Dropped redundant/low-importance features.  
 
    <p align="center">
-   <table>
-     <tr>
-       <td><img src="assets/distribution1.png" alt="Distribution Feature 1" width="300"/></td>
-       <td><img src="assets/distribution2.png" alt="Distribution Feature 2" width="300"/></td>
-     </tr>
-     <tr>
-       <td><img src="assets/distribution3.png" alt="Distribution Feature 3" width="300"/></td>
-       <td><img src="assets/distribution4.png" alt="Distribution Feature 4" width="300"/></td>
-     </tr>
-   </table>
+     <img src="assets/distribution1.png" alt="Distribution Feature 1" width="480"/></td>
+     <img src="assets/distribution2.png" alt="Distribution Feature 2" width="480"/></td>
+   </p>
+   <p align="center">
+     <img src="assets/distribution3.png" alt="Distribution Feature 3" width="480"/></td>
+     <img src="assets/distribution4.png" alt="Distribution Feature 4" width="480"/></td>
    </p>
 
    <p align="center">
-     <img src="assets/correlation_matrix.png" alt="Correlation Matrix" width="600"/>
+     <img src="assets/correlation_matrix.png" alt="Correlation Matrix" width="800"/>
    </p>
 
 4. **Preprocessing**  
@@ -72,13 +70,13 @@ Three models were implemented:
    - Metrics: Accuracy, Precision, Recall, F1-score.  
 
    <p align="center">
-     <img src="assets/cm_lr.png" alt="Confusion Matrix - Logistic Regression" width="250"/>
-     <img src="assets/cm_rf.png" alt="Confusion Matrix - Random Forest" width="250"/>
-     <img src="assets/cm_gbt.png" alt="Confusion Matrix - Gradient-Boosted Tree" width="250"/>
+     <img src="assets/cm_lr.png" alt="Confusion Matrix - Logistic Regression" width="320"/>
+     <img src="assets/cm_rf.png" alt="Confusion Matrix - Random Forest" width="320"/>
+     <img src="assets/cm_gbt.png" alt="Confusion Matrix - Gradient-Boosted Tree" width="320"/>
    </p>
 
    <p align="center">
-     <img src="assets/model_comparison.png" alt="Model Performance Comparison" width="600"/>
+     <img src="assets/model_comparison.png" alt="Model Performance Comparison" width="800"/>
    </p>
 
 ---
