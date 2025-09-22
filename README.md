@@ -70,9 +70,13 @@ Three models were implemented:
    - Models: Logistic Regression, Random Forest, Gradient-Boosted Tree.  
    - Hyperparameter tuning with 2-fold Cross Validation.  
    - Metrics: Accuracy, Precision, Recall, F1-score.  
+
    <p align="center">
-     <img src="assets/confusion_matrices.png" alt="Confusion Matrices" width="600"/>
+     <img src="assets/cm_lr.png" alt="Confusion Matrix - Logistic Regression" width="250"/>
+     <img src="assets/cm_rf.png" alt="Confusion Matrix - Random Forest" width="250"/>
+     <img src="assets/cm_gbt.png" alt="Confusion Matrix - Gradient-Boosted Tree" width="250"/>
    </p>
+
    <p align="center">
      <img src="assets/model_comparison.png" alt="Model Performance Comparison" width="600"/>
    </p>
@@ -96,8 +100,12 @@ Three models were implemented:
 
 ---
 
-## 🚀 How to Run
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/<your-username>/cardiovascular-prediction.git
-   cd cardiovascular-prediction
+## How to Run
+
+Since this project was developed in **Google Colab**, you can run it without setting up a local environment:
+
+1. Open [Google Colab](https://colab.research.google.com/)  
+2. Click **File > Open notebook > GitHub**  
+3. Enter this repository URL: [https://github.com/jazzlynamelia/cardiovascular-prediction/](https://github.com/jazzlynamelia/cardiovascular-prediction/)
+4. Select the notebook you want to run (`cardiovascular_prediction.ipynb`)  
+5. Run the notebook step by step
