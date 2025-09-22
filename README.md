@@ -43,8 +43,21 @@ Three models were implemented:
 3. **Feature Engineering & Selection**  
    - Created new variables: BMI, blood pressure categories, age groups, pressure ratios, cholesterol-BMI interaction, lifestyle impact.  
    - Dropped redundant/low-importance features.  
+
    <p align="center">
-     <img src="assets/distributions.png" alt="Distribution of Engineered Features" width="600"/>
+   <table>
+     <tr>
+       <td><img src="assets/distribution1.png" alt="Distribution Feature 1" width="300"/></td>
+       <td><img src="assets/distribution2.png" alt="Distribution Feature 2" width="300"/></td>
+     </tr>
+     <tr>
+       <td><img src="assets/distribution3.png" alt="Distribution Feature 3" width="300"/></td>
+       <td><img src="assets/distribution4.png" alt="Distribution Feature 4" width="300"/></td>
+     </tr>
+   </table>
+   </p>
+
+   <p align="center">
      <img src="assets/correlation_matrix.png" alt="Correlation Matrix" width="600"/>
    </p>
 
